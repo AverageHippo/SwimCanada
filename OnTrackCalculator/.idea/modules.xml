@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OnTrackCalculator.iml" filepath="$PROJECT_DIR$/OnTrackCalculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/code/OnTrackCalculator-code.iml" filepath="$PROJECT_DIR$/code/OnTrackCalculator-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/things/things.iml" filepath="$PROJECT_DIR$/things/things.iml" />
     </modules>
   </component>
 </project>

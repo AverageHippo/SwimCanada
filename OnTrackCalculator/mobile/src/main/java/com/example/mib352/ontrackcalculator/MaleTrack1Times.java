@@ -7,6 +7,7 @@ package com.example.mib352.ontrackcalculator;
  * Created by mib352 on 2017-12-28.
  */
 import android.app.Activity;
+import android.util.Log;
 
 public class MaleTrack1Times extends Activity {
     int Age;
@@ -31,7 +32,8 @@ public class MaleTrack1Times extends Activity {
     public void MaleTrack1Times()
     {
 
-        if (Age == 15) {
+        if (Age == 15)
+        {
             x = 6;
             Track1 = new float[]{TwoFreestyle, FourFreestyle, EightFreestyle, Mile, TwoBack, twoBreast, FourMedley};
         }
@@ -47,17 +49,29 @@ public class MaleTrack1Times extends Activity {
             Track1 = new float[]{HundredFreestyle, TwoFreestyle, FourFreestyle, EightFreestyle, Mile, HundredBack,
                     TwoBack, oneBreast, twoBreast, oneFly, twoFly, TwoMedley, FourMedley};
         }
-        else if (Age == 18)
+        else if (Age == 18 && Age == 19)
         {
             x = 13;
             Track1 = new float[]{FiftyFreestyle, HundredFreestyle, TwoFreestyle, FourFreestyle, EightFreestyle, Mile, HundredBack,
                     TwoBack, twoBreast, oneFly, twoFly, TwoMedley, FourMedley};
         }
-
-
+        else if (Age == 20)
+        {
+            x = 6;
+            Track1 = new float[]{FiftyFreestyle, HundredFreestyle, HundredBack, oneBreast, oneFly, twoFly, TwoMedley};
+        }
+        else if (Age == 21)
+        {
+            x = 1;
+            Track1 = new float[]{FiftyFreestyle, oneBreast};
+        }
+        else if (Age == 22)
+        {
+            x = 0;
+            Track1 = new float[]{FiftyFreestyle};
+        }
+       
     }
-
-
 }
 
 
