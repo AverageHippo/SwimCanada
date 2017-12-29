@@ -27,11 +27,12 @@ public class MaleTrack1Times extends Activity {
     double TwoMedley;
     double FourMedley;
     double Track1[];
-
-
+    boolean male;
+    boolean female;
     public void MaleTrack1Times()
     {
-
+        male = true;
+        female = false;
         if (Age == 15)
         {
             x = 6;
@@ -39,7 +40,7 @@ public class MaleTrack1Times extends Activity {
             TwoFreestyle = 113.74;
             FourFreestyle = 242.71;
             EightFreestyle = 500.80;
-            Mile = 2768.22;
+            Mile = 985.16;
             TwoBack = 125.27;
             twoBreast = 143.80;
             FourMedley = 278.64;
@@ -53,7 +54,7 @@ public class MaleTrack1Times extends Activity {
             TwoFreestyle = 111.68;
             FourFreestyle = 237.78;
             EightFreestyle = 491.33;
-            Mile = 2746.64;
+            Mile = 963.2;
             HundredBack = 57.59;
             TwoBack = 122.84;
             twoBreast = 139.78;
@@ -71,7 +72,7 @@ public class MaleTrack1Times extends Activity {
             TwoFreestyle = 109.90;
             FourFreestyle = 233.62;
             EightFreestyle = 483.97;
-            Mile = 2728.56;
+            Mile = 944.8;
             HundredBack = 56.44;
             TwoBack = 120.76;
             oneBreast = 64.38;
@@ -93,7 +94,7 @@ public class MaleTrack1Times extends Activity {
                 TwoFreestyle = 108.40;
                 FourFreestyle = 230.20;
                 EightFreestyle = 478.31;
-                Mile = 2713.79;
+                Mile = 929.77;
                 HundredBack = 55.46;
                 TwoBack = 119.01;
                 oneBreast = 63.02;
@@ -110,7 +111,7 @@ public class MaleTrack1Times extends Activity {
                 TwoFreestyle = 107.15;
                 FourFreestyle = 227.43;
                 EightFreestyle = 474.31;
-                Mile = 2701.97;
+                Mile = 917.75;
                 HundredBack = 54.65;
                 TwoBack = 117.58;
                 oneBreast = 61.90;
