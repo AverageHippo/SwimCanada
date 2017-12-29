@@ -8,19 +8,25 @@
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
         android:entries="AgeRanges"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="74dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:entries="EventList"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="114dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -29,26 +35,30 @@
         android:layout_height="wrap_content"
         android:checked="false"
         android:text="Male"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintStart_toStartOf="@+id/radioButton2"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         style="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:duplicateParentState="false"
         android:text="Female"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="time"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:text="Time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
 </android.support.constraint.ConstraintLayout>
